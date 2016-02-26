@@ -11,66 +11,76 @@ h1 {
 	font-family: Tahoma, Geneva, sans-serif;
 	color:#645f4c;
 	font-size: 4em;
+	text-align: center;
 	}
 h2 {
 	font-family: Tahoma, Geneva, sans-serif;
-	color:#e6ffff;
-	font-style: 
+	text-align: center;
+	background-color: #645f4c;
+	color: #fff;
 }
 h3{
 	font-family: Tahoma, Geneva, sans-serif;
-	color:#B09283;/*taupe*/
+	
 	}
 h4 {
 	font-family: Tahoma, Geneva, sans-serif;
-	font-style: italic;
-	color:#B69887;/*taupe*/
+	
 	font-weight: lighter;
+	
 }
 h5 {
 	font-family: Tahoma, Geneva, sans-serif;
-	color:#ffffff;
-	}
+		}
 
 p {
 	font-family: Tahoma, Geneva, sans-serif;
-	font-size: .75em;
-	color: #fff;
+	
+
 }
+
 #content-contact {
-	background-color: #B09283
-	;/*olive*/
-	color:#fff;
-}
+	text-align: center;
+	font-size: 14pt;
+	}
+
 a{
-	color:#fff;
+	text-decoration: none;
+	color:#aaa;
 }
 
 
 #header {
-    background-color:#B09283;/*taupe*/
+    
     color:#e6ffff;/*lightblue*/
-    text-align:left;
+    text-align: center;
     padding:5px;
 }
 
 #content-summary {
-	color:#ffffff;/*white*/
+	
 	width: 100;
-	text-align: :center;
-	font-size: 16pt;
+	text-align: center;
+	font-size: 12pt;
 	
 }
 
 #content-professional {
-	background-color: #645f4c;
+	
 	text-align: left;
 }
 
 #content-education{
+	
 	text-align: left;
 }
 
 #content-other {
+
 	text-align: left;
 }
+
+
+
+
+
