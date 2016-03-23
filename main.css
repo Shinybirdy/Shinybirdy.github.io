@@ -1,42 +1,65 @@
 body {
 	background-color: #e6ffff;/*lightblue*/
 	height: 100;
-	margin: 5;
+	margin: 0;
 	text-align: left;
 	width: 100;
 }
 
-
 h1 {
 	font-family: Tahoma, Geneva, sans-serif;
-	color:#645f4c;
-	font-size: 4em;
+	color:#645f4c;/*olive*/
+	font-size: 5em;
 	text-align: center;
+	text-shadow:2px 2px 4px #aaa;
 	}
+
 h2 {
 	font-family: Tahoma, Geneva, sans-serif;
 	text-align: center;
-	background-color: #645f4c;
-	color: #fff;
+	background-color: #645f4c;/*olive*/
+	color: #fff;/*white*/
+	box-shadow: 2px 2px 4px #aaa;
 }
 h3{
 	font-family: Tahoma, Geneva, sans-serif;
-	
+	padding-left: 5px;
+	background-color: #99ccff;
+	box-shadow: 2px 2px 4px #aaa;
 	}
+
 h4 {
 	font-family: Tahoma, Geneva, sans-serif;
-	
+	padding-left: 5px;
 	font-weight: lighter;
-	
 }
-h5 {
+
+h5, p{
 	font-family: Tahoma, Geneva, sans-serif;
 		}
 
-p {
-	font-family: Tahoma, Geneva, sans-serif;
-	
+figure {
+	margin:0 0 auto auto;
+	background-color: #FF9912;/*cadmium yellow*/
+	box-shadow: 2px 2px 4px #aaa;
+	padding-top: 4px;
 
+}
+
+a{
+	text-decoration: none;
+	color:#aaa;/*grey*/
+}
+
+header {
+    border-top: 
+    background-color:#e6ffff;/*lightblue*/
+    text-align: center;
+    color:#645f4c;/*olive*/
+}
+
+footer{
+	background-color: #FF9912;/*cadmium yellow*/
 }
 
 #content-contact {
@@ -44,39 +67,25 @@ p {
 	font-size: 14pt;
 	}
 
-a{
-	text-decoration: none;
-	color:#aaa;
-}
-
-
-#header {
-    
-    color:#e6ffff;/*lightblue*/
-    text-align: center;
-    padding:5px;
-}
-
 #content-summary {
-	
-	width: 100;
+	width: 75%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
 	text-align: center;
 	font-size: 12pt;
-	
 }
 
 #content-professional {
-	
 	text-align: left;
 }
 
 #content-education{
-	
 	text-align: left;
 }
 
 #content-other {
-
 	text-align: left;
 }
 
