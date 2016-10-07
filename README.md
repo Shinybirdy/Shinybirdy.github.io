@@ -1,2 +1,2 @@
-# tracey-prime
-resume for Prime Academy app
+# Gymnasium tutorial
+HTML and CSS practice using tutorial on Gymnasium. Nutella!
