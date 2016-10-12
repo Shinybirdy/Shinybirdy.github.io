@@ -8,11 +8,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 //serves static files in public folder
-app.use(express.static("public"));
+app.use( express.static ("public") );
 
 app.get('/', function(req,res){
   console.log('in base url---sweeeeeet');
-res.sendFile(path.resolve('public/views/index.html'));
+res.sendFile( path.resolve ('public/views/index.html' ) );
 
 });
 
