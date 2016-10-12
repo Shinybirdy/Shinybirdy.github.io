@@ -6,17 +6,16 @@ var router = express.Router();
 var bodyParser = require("body-parser");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-
-//serves static files in public folder
-app.use( express.static ("public") );
+app.use(express.static ("./public/views" ));
 
 app.get('/', function(req,res){
   console.log('in base url---sweeeeeet');
-res.sendFile( path.resolve ('public/views/index.html' ) );
+res.sendFile(path.resolve("./public/views/index.html"));
 
 });
 
 //app.set('views', path.join(__dirname, 'views'));
+//serves static files in public folder
 
 app.listen( 3000 , function(){
   console.log("Mama is listening on 3000...");
