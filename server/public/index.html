@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--  Meta-Information  -->
+    <title>Oh, You Nutella!</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--  Vendor Links -->
+    <link rel="stylesheet" href="vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendors/bootstrap-theme.min.css" />
+    <!--  Site Styles Files -->
+    <link rel="stylesheet" href="styles/stylesheet.css"  type="text/css"/>
+  </head>
+
+  <body ng-app="nutellaApp">
+    <!--  Site Content Goes Here -->
+    <div ng-include="'views/templates/header.html'"></div>
+    <div ng-view></div>
+    <div ng-include="'views/templates/footer.html'"></div>
+
+    <!-- Javascripts -->
+    <script src="vendors/jquery.min.js"></script>
+
+
+    <!-- Angular -->
+    <script src="vendors/angular.min.js"></script>
+    <script src="vendors/angular-route.min.js"></script>
+
+    <!-- Site Script Files -->
+    <script src="scripts/myapp.js"></script>
+</body>
+</html>

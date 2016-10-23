@@ -6,11 +6,11 @@ var router = express.Router();
 var bodyParser = require("body-parser");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(express.static ("./public/views" ));
+app.use(express.static (__dirname + "/public"));
 
 app.get('/', function(req,res){
   console.log('in base url---sweeeeeet');
-res.sendFile(path.resolve("./public/views/index.html"));
+res.sendFile(path.resolve("/"));
 
 });
 
