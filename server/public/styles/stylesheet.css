@@ -1,5 +1,25 @@
+/*Nutella color pallette by  DandL
+#CD3E40,#9B5740,#6E5036,#DC843D,#ABC363,#CD3E40,#9B5740,
+
+*/
+
+
+
 body{
-  background-color: pink;
-  font-family: fantasy;
+  padding-top:10em;
+  color:white;
+  background-color:#6E5036;
+  /*font-family: Helvetica;*/
   font-weight: bold;
+  height:100%;
+}
+
+.navbar{
+  background-color:#CD3E40;
+
+}
+
+footer {
+    margin: 50px 0;
+    background-color: #ABC363;
 }

@@ -13,6 +13,8 @@ app.config(['$routeProvider', function ($routeProvider) {
   .when("/production", {templateUrl: "views/production.html", controller: "PageCtrl"})
   .when("/recipes", {templateUrl: "views/recipes.html", controller: "PageCtrl"})
   .when("/storage", {templateUrl: "views/storage.html", controller: "PageCtrl"})
+  .when("/about", {templateUrl: "views/about.html", controller: "PageCtrl"})
+
 // else 404
   .otherwise("/404", {templateUrl: "views/404.html", controller: "PageCtrl"});
 }]);
