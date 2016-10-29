@@ -14,6 +14,10 @@ body{
   height:100%;
 }
 
+p{
+  color:#ABC363;
+}
+
 .navbar{
   background-color:#CD3E40;
 
