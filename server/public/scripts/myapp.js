@@ -21,6 +21,7 @@ app.config(['$routeProvider', function ($routeProvider) {
 
 // Controls the Pages
 
-app.controller("PageCtrl", function( $scope, $location, $http ){
+app.controller("formCtrl", function( $scope, $location, $http ){
+  $scope.recipe = {title:"Nutella Waffles", ingredients:""};
   console.log("Page Controller having no control issues");
 });
