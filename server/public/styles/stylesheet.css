@@ -2,40 +2,46 @@
 #CD3E40,#9B5740,#6E5036,#DC843D,#ABC363
 
 */
-
-
-
 body{
-  padding-top:10em;
+  padding-top:4em;
   background-color:#6E5036;
-  /*font-family: Helvetica;*/
-  font-weight: bold;
+  font-family: Helvetica;
+  /*font-weight: bold;*/
   height:100%;
+  color: white;
 }
 
 p{
   font-family:"Helvetica Neue", Ariel, sans-serif;
-  color:#ABC363;
+  color:#fff;
 
 }
 
 aside{
   font-style:italic;
 }
+section {
+  box-shadow: inset 0 0 7px 4px rgba(255,255,255,.5);
 
-.navbar{
+}
+
+#header {
   background-color:#CD3E40;
 
 }
 
 #footer p{
     color:#fff;
-    /*margin: 50px 0;*/
+    margin: 50px 0;
     text-align: center;
     background-color: #ABC363;
     /*text-shadow: 1px 2px 0 #000;*/
 }
 
-#ingredients{
-  background-color: #DC843D;
+#ingredients aside {
+  width: 200px;
+  height: 200px;
+  padding: 2em 2em;
+  text-rendering:
+
 }
