@@ -5,8 +5,9 @@ console.log("hey from myapp.js");
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
   // Home
-   .when("/home", {templateUrl: "views/home.html", controller: "PageCtrl"})
+   .when("/index", {templateUrl: "views/index.html", controller: "PageCtrl"})
   // Pages
+   .when("/home", {templateUrl: "views/home.html", controller: "PageCtrl"})
   // .when("/ingredients", {templateUrl: "views/ingredients.html", controller: "PageCtrl"})
   // .when("/nutrition", {templateUrl: "views/nutrition.html", controller: "PageCtrl"})
   // .when("/processing", {templateUrl: "views/processing.html", controller: "PageCtrl"})
@@ -16,7 +17,7 @@ app.config(['$routeProvider', function ($routeProvider) {
   .when("/all_about_nutella", {templateUrl: "views/all_about_nutella.html", controller: "PageCtrl"})
 
 // else 404
-  .otherwise("/404", {templateUrl: "views/404.html", controller: "PageCtrl"});
+  .otherwise("/home", {templateUrl: "views/home.html", controller: "PageCtrl"});
 }]);
 
 // Controls the Pages

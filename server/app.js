@@ -14,11 +14,8 @@ var port = process.env.PORT || 3000;
 
 // ROUTES FOR API
 // ============================================================
-// var router = express.Router(); //gets instance of express router
-
 router.get('/', function(req,res){
   res.send("hey, home");
-
 });
 // home page route (http://localhost:8080)
 
