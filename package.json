@@ -1,5 +1,5 @@
 {
-  "name": "shinybirdy.github.io",
+  "name": "nutella_recipes_app",
   "version": "1.0.0",
   "description": "practice html",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shinybirdy/Shinybirdy.github.io.git"
+    "url": "git+https://github.com/Shinybirdy/nutella_recipes_app.git"
   },
   "author": "traceyzavadil@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Shinybirdy/Shinybirdy.github.io/issues"
+    "url": "https://github.com/Shinybirdy/nutella_recipes_app/issues"
   },
-  "homepage": "https://github.com/Shinybirdy/Shinybirdy.github.io#readme",
+  "homepage": "https://github.com/Shinybirdy/nutella_recipes_app#readme",
   "dependencies": {
     "angular": "^1.5.8",
     "angular-route": "^1.5.8",
