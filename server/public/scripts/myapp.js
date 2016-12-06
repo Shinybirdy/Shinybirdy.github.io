@@ -8,16 +8,13 @@ app.config(['$routeProvider', function ($routeProvider) {
    .when("/index", {templateUrl: "views/index.html", controller: "PageCtrl"})
   // Pages
    .when("/home", {templateUrl: "views/home.html", controller: "PageCtrl"})
-  // .when("/ingredients", {templateUrl: "views/ingredients.html", controller: "PageCtrl"})
-  // .when("/nutrition", {templateUrl: "views/nutrition.html", controller: "PageCtrl"})
-  // .when("/processing", {templateUrl: "views/processing.html", controller: "PageCtrl"})
-  // .when("/production", {templateUrl: "views/production.html", controller: "PageCtrl"})
-  // .when("/recipes", {templateUrl: "views/recipes.html", controller: "PageCtrl"})
-  // .when("/storage", {templateUrl: "views/storage.html", controller: "PageCtrl"})
-  .when("/all_about_nutella", {templateUrl: "views/all_about_nutella.html", controller: "PageCtrl"})
-
+   .when ("/aboutTracey", {templateUrl: "views/aboutTracey.html", controller: "PageCtrl"})
+   .when ("/portfolio", {templateUrl: "views/portfolio.html", controller: "PageCtrl"})
+   .when ("/blog", {templateUrl: "views/blog", controller: "PageCtrl"})
+   .when("/all_about_nutella", {templateUrl: "views/all_about_nutella.html", controller: "PageCtrl"})
+   .when("/recipes", {templateUrl: "views/recipes", controller: "PageCtrl"})
 // else 404
-  .otherwise("/home", {templateUrl: "views/home.html", controller: "PageCtrl"});
+  .otherwise("/404", {templateUrl: "views/404.html", controller: "PageCtrl"});
 }]);
 
 // Controls the Pages

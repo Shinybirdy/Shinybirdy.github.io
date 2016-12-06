@@ -20,7 +20,7 @@ router.get('/', function(req,res){
 // home page route (http://localhost:8080)
 
 // about page route (http://localhost:8080/about)
-router.get('/home', function(req, res) {
+router.get('/index', function(req, res) {
     res.send('im the home page!');
 });
 
