@@ -1,12 +1,12 @@
 var express = require("express");
 var app = express();
 var path = require("path");
-var router = express.Router();
+// var router = express.Router();
 
 var bodyParser = require("body-parser");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static (__dirname + "/public"));
+// app.use(express.static (__dirname + "/public"));
 // app.use('/static', express.static(path.join(__dirname, 'public')));
 //=============================================================
 //SET PORT
@@ -14,18 +14,21 @@ var port = process.env.PORT || 3000;
 
 // ROUTES FOR API
 // ============================================================
-router.get('/', function(req,res){
-  res.send("hey, home");
+app.get('/*', function(req,res){
+  var file = req.params[0] || "index.html";
+  res.sendFile(path.join(__dirname, "./public", file));
+  console.log((path.join(__dirname, "./public", file)));
+  // res.send("hey, home");
 });
 // home page route (http://localhost:8080)
 
 // about page route (http://localhost:8080/about)
-router.get('/index', function(req, res) {
+app.get('/index', function(req, res) {
     res.send('im the home page!');
 });
 
 // apply the routes to our application
-app.use('/', router);
+// app.use('/', app);
 
 
 // MORE ROUTES TO GO HERE
