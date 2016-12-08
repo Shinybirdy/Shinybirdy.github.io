@@ -26,7 +26,8 @@ section {
 
 .portfolio-item{
   margin-bottom: 25px;
-  box-shadow: 5px 5px 5px #000;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 #nav {
