@@ -17,17 +17,15 @@ p{
 
 }
 
-aside{
-  font-style:italic;
-}
+
 section {
 
 }
 
 .portfolio-item{
-  margin-bottom: 25px;
-  margin-left: 25px;
-  margin-right: 25px;
+  /*margin-bottom: 25px;
+  margin-left: 12em;
+  margin-right: 12em;*/
 }
 
 #nav {
@@ -43,10 +41,12 @@ section {
     /*text-shadow: 1px 2px 0 #000;*/
 }
 
-#ingredients aside {
-  width: 200px;
-  height: 200px;
-  padding: 2em 2em;
-  text-rendering:
+.aside {
+  border:2px red;
+  /*border-color: red;
+  border-width: thin;
+  text-indent: inherit;*/
+
+
 
 }
