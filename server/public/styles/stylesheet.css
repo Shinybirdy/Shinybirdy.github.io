@@ -28,6 +28,14 @@ section {
   margin-right: 12em;*/
 }
 
+.headshot-item{
+  border: 1em solid red;
+  border-radius: 5em;
+}
+.headshot-item image-responsive{
+  border: 1em solid green;
+  border-radius: 5em;
+}
 #nav {
   background-color:#CD3E40;
 
